@@ -1,0 +1,176 @@
+.learner_container{
+    width: 100%
+}
+.learners_wrapper{
+    width: 100%;
+}
+
+.learners_black{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/* Main screen styling end here */
+.learners_main_screen{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/learners-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #fff;
+    height: 75svh;
+    justify-content: center;
+    
+}
+
+/* start */
+
+
+
+/* end */
+
+
+
+
+
+
+.learners_main_screen h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.learners_main_screen p{
+    margin: 15px 0;
+    font-size: 20px;
+}
+.learners_main_screen a{
+    background-color: teal;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 600;
+}
+.learners_main_screen a:hover{
+    background-color: rgba(0, 128, 128, 0.726);
+}
+/* Main screen styling end here */
+
+
+/* This section is for the navigation in the bottom with black background */
+.learners_bottom_black ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.learners_bottom_black li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+ .learners_bottom_black ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .learners_bottom_black ul li a:hover {
+    color: #fff;
+    border-radius: 15px;
+  }
+  .learners_bottom_black ul li:not(:hover) a {
+    opacity: 0.7;
+  }
+/* Bottom avigation style end here */
+
+
+  /* This section is for the paragraph with white background*/
+  .learners_white_section{
+    padding: 50px;
+  }
+  .learners_white_section h4{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .learners_white_section p{
+    font-size: 18px;
+  }
+/* The sction with blue-like background start here */
+.learners_blue_section{
+    padding: 30px 50px;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .learners_blue_section h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .learners_blue_section span a{
+    text-decoration: none;
+    color: rgb(92, 49, 8);
+  }
+  .learners_blue_section p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  .learners_blue_section button{
+    background: transparent;
+    padding: 15px 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .learners_blue_section button:hover{
+    background-color: white;
+    color: teal;
+  }
+
+  @media screen and (max-width: 768px){
+    .learners_partners_wrapper{
+        padding: 30px;
+    }
+    .learners_main_screen{
+        padding: 25px;
+    }
+    .learners_black{
+        padding: 25px;
+    }
+    .learners_white_section{
+        padding: 50px 25px;
+      }
+    .learners_blue_section{
+            padding: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 500px){
+    .learners_bottom_black{
+      height:fit-content;
+      padding: 15px 20px;
+    }
+    .learners_bottom_black li {
+      display: flex;
+      height: fit-content;
+      flex-direction: column;
+    }
+  }
+    
+  

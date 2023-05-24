@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.container-top{
+    height: 200px;
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+}
+.form-container-top{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 40%;
+    width: 30%;
+    padding: 20px 20px;   
+}
+
+.form-container-top #email{
+    height: 32px;
+    width: 80%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.form-container-top #btnn{
+    padding: 8px 15px;
+    text-align: center;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container-top label{
+    margin-bottom: 15px;
+}
